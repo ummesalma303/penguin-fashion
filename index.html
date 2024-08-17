@@ -26,16 +26,30 @@
      <header class="px-14 font-roboto">
      <nav>
         <div class="flex items-center justify-between py-4">
-        <img class="max-w-72" src="./icons/logo.png" alt="">
-        <ul class="flex space-x-7 text-lg">
+        <img class="max-w-64 md:max-w-72" src="./icons/logo.png" alt="">
+        <ul class=" hidden md:flex space-x-7 text-lg">
             <li>Home</li>
             <li>Products</li>
             <li>About us</li>
             <li>Contact us</li>
         </ul>
-        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 block md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>  
      </nav>
-     <main class="font-roboto px-14"></main>
-     </header>
+      <!-- banner code start -->
+      <div class=" md:flex items-center md:justify-around mt-6 md:mt-0">
+        <div>
+            <h1 class="text-8xl font-bebas-neue mb-6"><span class=" text-[#FABE4C]">Be the Penguins</span> <br> <span class="text-[#363958]">of Winter</span> </h1>
+            <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+            <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-4 py-2 rounded-md mt-5">BUY NOW</button>
+        </div>
+        <div>
+            <img src="./images/model.png" alt="">
+        </div>
+    </div>
+    </div>
+    </header>
+    <main class="font-roboto px-10"></main>
 </body>
 </html>
